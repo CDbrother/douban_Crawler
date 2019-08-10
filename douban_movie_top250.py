@@ -57,7 +57,7 @@ def parse(text):  # 解析数据
         n += 1
     # print(contents_staff)
     # print(contents_other)
-    # 这里的for会把每一个元素都遍历，一段话的每一个字都回被分开，就很离谱
+    # 这里的for会把每一个元素都遍历，一段话的每一个字都会被分开，就很离谱
     contents_txt = zip(contents_title, contents_title_origin, contents_url, contents_score, contents_staff,
                        contents_other, contents_quote)
     # zip()函数，contents=[(contents_title,contents_url， contents_score),()...]，是元组
